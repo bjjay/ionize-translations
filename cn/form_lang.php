@@ -24,8 +24,8 @@
 */
 $lang['form_label_email'] = "邮箱";
 $lang['form_label_name'] = "用户名";
-$lang['form_label_firstname'] = "姓";
-$lang['form_label_lastname'] = "名";
+$lang['form_label_firstname'] = "名";
+$lang['form_label_lastname'] = "姓";
 $lang['form_label_screen_name'] = "显示名称";
 $lang['form_label_username'] = "登录名";
 $lang['form_label_birthdate'] = "生日";
