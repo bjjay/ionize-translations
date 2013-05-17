@@ -648,42 +648,42 @@ $lang['ionize_message_view_saved'] = '视图已保存';
 | Admin : Page
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_pages'] = 'Pages';
-$lang['ionize_title_create_page'] = 'Create page';
-$lang['ionize_title_new_page'] = 'New page';
-$lang['ionize_title_edit_page'] = 'Page edit';
-$lang['ionize_title_page_parent'] = 'Parent';
-$lang['ionize_title_sub_navigation'] = 'Sub Navigation';
-$lang['ionize_title_help_articles_types'] = 'About Types';
-$lang['ionize_label_page_online'] = 'Page Online';
-$lang['ionize_label_page_content_online'] = 'Online for this language';
-$lang['ionize_label_online_in'] = 'Online in';
-$lang['ionize_label_articles'] = 'Articles';
-$lang['ionize_label_add_article'] = 'Add Article';
-$lang['ionize_label_appears'] = 'Display in nav';
-$lang['ionize_label_link'] = 'Link';
-$lang['ionize_label_pagination_nb'] = 'Articles / page';
-$lang['ionize_label_article_list_template'] = 'List view';
-$lang['ionize_label_page_delete_date'] = 'Page delete date';
-$lang['ionize_label_menu'] = 'Menu';
-$lang['ionize_label_home_page'] = 'Home page';
-$lang['ionize_help_home_page'] = 'Home page';
-$lang['ionize_label_page_used_by_module'] = 'Used by module';
+$lang['ionize_title_pages'] = '页面';
+$lang['ionize_title_create_page'] = '创建页面';
+$lang['ionize_title_new_page'] = '新页面';
+$lang['ionize_title_edit_page'] = '编辑页面';
+$lang['ionize_title_page_parent'] = '父页面';
+$lang['ionize_title_sub_navigation'] = '子导航';
+$lang['ionize_title_help_articles_types'] = '关于类型';
+$lang['ionize_label_page_online'] = '发布页面';
+$lang['ionize_label_page_content_online'] = '发布页面内容';
+$lang['ionize_label_online_in'] = '上线';
+$lang['ionize_label_articles'] = '文章';
+$lang['ionize_label_add_article'] = '添加文章';
+$lang['ionize_label_appears'] = '导航显示';
+$lang['ionize_label_link'] = '链接';
+$lang['ionize_label_pagination_nb'] = '文章/单页';
+$lang['ionize_label_article_list_template'] = '视图列表';
+$lang['ionize_label_page_delete_date'] = '删除日期';
+$lang['ionize_label_menu'] = '菜单';
+$lang['ionize_label_home_page'] = '主页';
+$lang['ionize_help_home_page'] = '主页';
+$lang['ionize_label_page_used_by_module'] = '被模块使用';
 $lang['ionize_help_page_used_by_module'] = 'If checked, all sub URLs will refer to this page, and will not return one 404.';
 $lang['ionize_label_sitemap_priority'] = 'Sitemap priority';
 $lang['ionize_label_article_reorder'] = 'Reorder Articles';
 $lang['ionize_label_date_asc'] = 'Date Ascendant';
 $lang['ionize_label_date_desc'] = 'Date Descendant';
-$lang['ionize_label_no_sub_navigation'] = '-- No one --';
+$lang['ionize_label_no_sub_navigation'] = '-- 无 --';
 $lang['ionize_button_reorder'] = 'Reorder';
 $lang['ionize_select_default_view'] = '-- Default view --';
-$lang['ionize_select_everyone'] = '-- Everyone --';
+$lang['ionize_select_everyone'] = '-- 每个人 --';
 $lang['ionize_message_page_name_exists'] = 'This page already exists!';
 $lang['ionize_message_page_url_exists'] = 'One page with a same URL already exists !';
-$lang['ionize_message_page_saved'] = 'Page saved';
-$lang['ionize_message_page_not_saved'] = 'Page not saved';
-$lang['ionize_message_page_not_exist'] = 'Page don\'t exist';
-$lang['ionize_message_page_ordered'] = 'Page ordered';
+$lang['ionize_message_page_saved'] = '页面已保存';
+$lang['ionize_message_page_not_saved'] = '页面未保存';
+$lang['ionize_message_page_not_exist'] = '页面不存在';
+$lang['ionize_message_page_ordered'] = '页面排序';
 $lang['ionize_message_page_needs_url_or_title'] = 'Please fill title or URL for the default language !';
 $lang['ionize_message_drop_only_article'] = 'Please drop only an article!';
 $lang['ionize_message_articles_ordered'] = 'Articles ordered !';
@@ -943,15 +943,15 @@ $lang['ionize_help_field_length'] = 'Field length';
 */
 $lang['ionize_tab_current_theme'] = '当前模版';
 $lang['ionize_tab_modules'] = '模块';
-$lang['ionize_text_module_translation_file_exist_for'] = 'This module has default languages files for';
-$lang['ionize_message_language_files_saved'] = 'Translations saved';
-$lang['ionize_message_language_dir_creation_fail'] = 'Folder creation impossible';
-$lang['ionize_message_language_file_creation_fail'] = 'File writing impossible';
-$lang['ionize_label_expand_all'] = 'Expand all';
-$lang['ionize_label_collapse_all'] = 'Collapse all';
-$lang['ionize_label_add_translation'] = 'Add a translated item';
-$lang['ionize_message_delete_translation'] = 'Delete this translation item?';
-$lang['ionize_help_modules_translation'] = 'Available static translations for modules.<br/>These terms can be used in your theme views through <dfn><\ion:translation term="term" /></dfn>.<br/>If you want to overwrite some of them, add your translation in each term textarea.';
+$lang['ionize_text_module_translation_file_exist_for'] = '此模块使用的默认翻译文件';
+$lang['ionize_message_language_files_saved'] = '翻译已保存';
+$lang['ionize_message_language_dir_creation_fail'] = '无法创建文件夹';
+$lang['ionize_message_language_file_creation_fail'] = '无法创建文件';
+$lang['ionize_label_expand_all'] = '展开所有';
+$lang['ionize_label_collapse_all'] = '折叠所有';
+$lang['ionize_label_add_translation'] = '添加翻译项';
+$lang['ionize_message_delete_translation'] = '删除此翻译项?';
+$lang['ionize_help_modules_translation'] = '模块可用的静态翻译。<br/>这些项可以在你的模版视图中使用 <dfn><\ion:translation term="term" /></dfn>.<br/>如果你想复写他们，把你自己的翻译添加到各个项的文本编辑框。';
 				
 
 /*
@@ -970,19 +970,19 @@ $lang['ionize_message_internal_link_not_found'] = '错误 : 内部链接未发�
 | Admin : Modules
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_modules_list'] = 'Modules list';
-$lang['ionize_label_module_name'] = 'Name';
+$lang['ionize_title_modules_list'] = '模块列表';
+$lang['ionize_label_module_name'] = '名称';
 $lang['ionize_label_module_uri'] = 'URI';
-$lang['ionize_label_module_install'] = 'Install';
-$lang['ionize_label_module_uninstall'] = 'Uninstall';
-$lang['ionize_label_database_tables'] = 'Tables';
-$lang['ionize_message_module_install_error_no_config'] = 'Error : Module without config.xml';
-$lang['ionize_message_module_install_error_config_write'] = 'Write error : application/config/modules.php';
-$lang['ionize_message_module_page_conflict'] = 'Error : URI conflict with an existing page';
-$lang['ionize_message_module_install_database_error'] = 'Error when installing tables';
-$lang['ionize_message_module_saved'] = 'Module installed';
-$lang['ionize_message_module_uninstalled'] = 'Module uninstalled';
-$lang['ionize_message_module_not_installed'] = 'Module not installed !';
+$lang['ionize_label_module_install'] = '安装';
+$lang['ionize_label_module_uninstall'] = '卸载';
+$lang['ionize_label_database_tables'] = '数据表';
+$lang['ionize_message_module_install_error_no_config'] = '错误 : 模块未包含 config.xml 文件';
+$lang['ionize_message_module_install_error_config_write'] = '写入错误 : application/config/modules.php';
+$lang['ionize_message_module_page_conflict'] = '错误 : 和已存在页面 URI 冲突';
+$lang['ionize_message_module_install_database_error'] = '创建数据表出错';
+$lang['ionize_message_module_saved'] = '模块已安装';
+$lang['ionize_message_module_uninstalled'] = '模块已卸载';
+$lang['ionize_message_module_not_installed'] = '模块未安装!';
 
 
 /*
@@ -990,26 +990,26 @@ $lang['ionize_message_module_not_installed'] = 'Module not installed !';
 | Admin : System Check
 |--------------------------------------------------------------------------
 */
-$lang['ionize_title_system_check'] = 'System Diagnotic Tool';
-$lang['ionize_menu_sitemap'] = 'Site Map';
-$lang['ionize_menu_system_check'] = 'System Diagnotic';
+$lang['ionize_title_system_check'] = '系统检测工具';
+$lang['ionize_menu_sitemap'] = '网站地图';
+$lang['ionize_menu_system_check'] = '系统检测';
 $lang['ionize_text_system_check'] = 'These tools check the Ionize integrity and repair what should be. You cannot break anything by using them.';
-$lang['ionize_button_start_system_check'] = 'Start Check';
-$lang['ionize_title_check_element'] = 'Checked Element';
-$lang['ionize_title_check_result'] = 'Result';
-$lang['ionize_title_check_status'] = 'Status';
-$lang['ionize_title_check_lang'] = 'Check Languages';
-$lang['ionize_title_check_folder'] = 'Folder';
-$lang['ionize_title_check_page_level'] = 'Pages Levels';
-$lang['ionize_title_check_article_context'] = 'Articles Contexts';
-$lang['ionize_title_check_views'] = 'Check Views';
-$lang['ionize_title_rebuild_urls'] = 'Rebuild URLs';
-$lang['ionize_title_rebuild_pages_urls'] = 'Rebuild of Pages URLs';
-$lang['ionize_title_rebuild_articles_urls'] = 'Rebuild of Articles URLs';
-$lang['ionize_title_clean_media'] = 'Clean Media';
-$lang['ionize_title_check_reports'] = 'Reports';
+$lang['ionize_button_start_system_check'] = '开始检查';
+$lang['ionize_title_check_element'] = '检查元素';
+$lang['ionize_title_check_result'] = '结果';
+$lang['ionize_title_check_status'] = '状态';
+$lang['ionize_title_check_lang'] = '检查语言';
+$lang['ionize_title_check_folder'] = '文件夹';
+$lang['ionize_title_check_page_level'] = '页面层次';
+$lang['ionize_title_check_article_context'] = '文章内容';
+$lang['ionize_title_check_views'] = '检查视图';
+$lang['ionize_title_rebuild_urls'] = '重建 URLs';
+$lang['ionize_title_rebuild_pages_urls'] = '重建页面 URLs';
+$lang['ionize_title_rebuild_articles_urls'] = '重建文章 URLs';
+$lang['ionize_title_clean_media'] = '清除媒体文件';
+$lang['ionize_title_check_reports'] = '报告';
 $lang['ionize_title_broken_media_links'] = 'Media broken links';
-$lang['ionize_title_delete_thumbs'] = 'Delete thumbs';
+$lang['ionize_title_delete_thumbs'] = '删除缩略图';
 $lang['ionize_text_rebuild_urls'] = 'Rebuilds the whole pages and articles URLs.<br/> Removes the old URLs in the URL table.';
 $lang['ionize_text_check_lang'] = 'Check if all languages defined in DB are set in the config file.<br/> Corrects the config file if needed.';
 $lang['ionize_text_check_page_level'] = 'Checks the page level integrity and correct if needed.';
